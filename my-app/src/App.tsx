@@ -1,10 +1,7 @@
-import './App.css'
+import Block from "./components/block.tsx";
 
 function App() {
-
-  return (
-    <h1>skebobbb</h1>
-  )
+  return <Block />;
 }
 
-export default App
+export default App;
