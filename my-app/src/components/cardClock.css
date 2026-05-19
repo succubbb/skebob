@@ -1,0 +1,34 @@
+
+.cardClock {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    border-radius: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardClock h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.cardClock p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .cardClock {
+        width: 95%;
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+}

@@ -1,7 +1,13 @@
-import Block from "./components/block.tsx";
+import CardWeather from "./components/cardWeather.tsx";
+import CardClock from "./components/cardClock.tsx";
 
 function App() {
-  return <Block />;
+  return (
+    <>
+      <CardClock />
+      <CardWeather />
+    </>
+  )
 }
 
 export default App;
